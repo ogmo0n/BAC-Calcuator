@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Course Project</string>
+    <!-- Splash Activity -->
+    <string name="txtSplash">BAC Calculator</string>
+    <string name="imgSplash">Drunk Meter</string>
+    <!-- Main Activity -->
+    <string name="bkgImg">Blurry Bar Image</string>
+    <string name="txtGender">Select Your Gender</string>
+    <string name="prompt1">Sex</string>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="txtWeight">Enter Your Weight</string>
+    <string name="weight">Weight in Pounds</string>
+    <string name="txtType">Select Type of Drinks</string>
+    <string name="prompt2">Type</string>
+    <string-array name="type">
+        <item>Beer (12oz)</item>
+        <item>Beer (16oz)</item>
+        <item>Light Beer (12oz)</item>
+        <item>Light Beer (16oz)</item>
+        <item>Malt Liquor (12oz)</item>
+        <item>Ale (pint)</item>
+        <item>Porter (pint)</item>
+        <item>Stout (pint)</item>
+        <item>Brandy (snifter)</item>
+        <item>Dry Martini</item>
+        <item>Highball</item>
+        <item>Manhattan</item>
+        <item>Sake (1.5oz)</item>
+        <item>Rum (1.5oz)</item>
+        <item>Gin (1.5oz)</item>
+        <item>Vodka (1.5oz)</item>
+        <item>Tequila (1.5oz)</item>
+        <item>Whiskey (1.5oz)</item>
+        <item>Airplane Bottle</item>
+        <item>Wine (small glass)</item>
+    </string-array>
+    <string name="txtNumber">Enter the Number of Drinks Consumed</string>
+    <string name="number">Number of Drinks</string>
+    <string name="txtTime">Enter Time Since First Drink</string>
+    <string name="time">Elapsed Time (hrs)</string>
+    <string name="btnBAC">Calculate BAC</string>
+    <!-- Calc Activity -->
+    <string name="bkgBeer">Pint of Beer Image</string>
+    <string name="txtBAC">Approximate Blood Alcohol Percentage</string>
+    <string name="bacOutput">BAC %</string>
+    <string name="txt08">Time Until BAC of 0.08%</string>
+    <string name="output08">hours</string>
+    <string name="txt04">Time Until BAC of 0.04%</string>
+    <string name="output04">hours</string>
+    <string name="txt00">Time Until BAC of 0.00%</string>
+    <string name="output00">hours</string>
+    <string name="btnReset">Reset</string>
+</resources>

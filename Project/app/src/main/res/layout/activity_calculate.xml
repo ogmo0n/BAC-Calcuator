@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.androidbootcamp.courseproject.CalcActivity">
+
+    <ImageView
+        android:id="@+id/bkgBeer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="314dp"
+        android:contentDescription="@string/bkgBeer"
+        app:srcCompat="@drawable/beer1" />
+
+    <TextView
+        android:id="@+id/txtBAC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt08"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/txt08"
+        android:layout_marginTop="250dp"
+        android:text="@string/txtBAC" />
+
+    <EditText
+        android:id="@+id/bacOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtBAC"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:gravity="center_horizontal|center"
+        android:hint="@string/bacOutput"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:inputType="none" />
+
+    <TextView
+        android:id="@+id/txt08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/bacOutput"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/txt08" />
+
+    <EditText
+        android:id="@+id/output08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt08"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:gravity="center_horizontal|center"
+        android:hint="@string/output08"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:inputType="none"/>
+
+    <TextView
+        android:id="@+id/txt04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/output08"
+        android:layout_marginTop="2dp"
+        android:text="@string/txt04" />
+
+    <EditText
+        android:id="@+id/output04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/output08"
+        android:layout_alignStart="@+id/output08"
+        android:layout_below="@+id/txt04"
+        android:ems="10"
+        android:gravity="center_horizontal|center"
+        android:hint="@string/output04"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:inputType="none" />
+
+    <TextView
+        android:id="@+id/txt00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/output04"
+        android:layout_marginTop="2dp"
+        android:text="@string/txt00" />
+
+    <EditText
+        android:id="@+id/output00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/output04"
+        android:layout_alignStart="@+id/output04"
+        android:layout_below="@+id/txt00"
+        android:ems="10"
+        android:gravity="center_horizontal|center"
+        android:hint="@string/output00"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:inputType="none" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btnReset"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp" />
+</android.widget.RelativeLayout>
